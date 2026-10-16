@@ -460,6 +460,9 @@ table{
     text-align: center;
     color: white;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .projects > h1{
     padding-block: 10px;
@@ -479,4 +482,5 @@ table{
     width: 1000px;
     height: 600px;
     background-color: aqua;
+    margin-top: 40px;
 }
