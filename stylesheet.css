@@ -83,6 +83,7 @@ nav ul li a:hover{
     width: 100%;
     height: 855px;  
     background-image:url(images/3.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     position: absolute;
@@ -460,6 +461,7 @@ table{
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 2;
 }
 .projects > h1{
     color: white;
@@ -536,4 +538,210 @@ table{
     color: rgb(189, 189, 189);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+}
+
+.clients2{
+    width: 100%;
+    height: 800px;
+    background-image: url(images/feedback.webp);
+    background-size: cover;
+    position: absolute;
+    top: 4000px;
+}
+
+.clientsbox{
+    color: white;
+    text-align: center;
+}
+
+.clientsbox h1{
+    padding: 200px 0 15px 0;
+}
+
+
+.clientsbox h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.clientscontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clientsbox2{
+    width: 550px;
+    height: 350px;
+    background-image: url(images/film.webp);
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.clientsbox3{
+    width: 540px;
+    height: 350px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clientsbox3 h3{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.clientsbox3 p{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.clientsbox3 h5{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.clientsbox2cover{
+    height: 350px;
+    width: 550px;
+    background-color: #FBC124;
+    opacity: 0.65;
+}
+
+.clients2cover{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.501);
+    position: absolute;
+    top: 0;
+}
+
+.blog{
+    width: 100%;
+    height: 800px;
+    background-color: #141416;
+    position: absolute;
+    top: 4800px;
+    text-align: center;
+}
+
+.blog > h1{
+    color: white;
+    padding: 100px 0 15px 0;
+    letter-spacing: 1px;
+}
+
+.blog > p{
+    color: rgb(189, 189, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 60px;
+}
+
+.boxcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boxx{
+    width: 350px;
+    position: relative;
+}
+
+.inbox1{
+    width: 350px;
+    height: 270px;
+    background-image: url(images/post-rotor.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inbox2{
+    width: 350px;
+    height: 270px;
+    background-image: url(images/post-safety-walk.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inbox3{
+    width: 350px;
+    height: 270px;
+    background-image: url(images/post-pipe-spool-768x480.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pics{
+    width: 24px;
+    height: 24px;
+    padding-block: 10px;
+    background-image: url(images/b86f19e62a709a076823525a09a018befc8cb6e566d1e96b2733d806572e48b2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-block: 10px;
+}
+
+.picbox h4{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    bottom: 11px;
+    left: 30px;
+}
+
+.picbox  p{
+    color: rgb(189, 189, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    position: absolute;
+    bottom: 13px;
+    right: 40px;
+}
+
+.fa-message{
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+    position: absolute;
+    bottom: 13px;
+    right: 10px;
+}
+
+.picbox{
+    border-bottom: 1px solid rgb(150, 150, 150);
+    position: relative;
+}
+
+.txtbox h1{
+    color: white;
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+    text-align: left;
+    word-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+
+.txtbox p{
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 100;
+}
+
+.mar{
+    margin-block: 13px;
 }
