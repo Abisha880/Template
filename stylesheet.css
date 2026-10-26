@@ -1112,10 +1112,11 @@ td label{
 .box06{
     background-color: #1E63B8;
     display: flex;
+    justify-content: center ;
 }
 
 .box07{
-    width: 300px;
+    width: 330px;
     height: 350px;
     background-color: blueviolet;
     padding: 10px;
@@ -1137,15 +1138,51 @@ td label{
 .box08 a{
     width: 250px;
     color: rgba(240, 248, 255, 0.705);
+    transition: 0.3s;
+    font-size: 13px;
 }
 
 .box07 + .box07 h1{
     padding-bottom: 10px;
 }
 
-.box08{
-    width: 250px;
-    height: 55px;
-    background-color: brown;
 
+.box08{
+    width: 310px;
+    height: 45px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(240, 248, 255, 0.199);
+    position: relative;
+    overflow: hidden;
+}
+
+.q{
+    border-bottom: 0;
+}
+
+.box08::after{
+    content: "";
+    width: 310px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.295);
+    position: absolute;
+    bottom: 0px;
+    left: -310px;
+    transition: 0.3s;
+}
+
+.box08:hover::after{
+    left: 0;
+}
+
+.box08:hover a{
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.box09{
+    width: 310px;
+    height: 60px;
+    background-color: burlywood;
 }
