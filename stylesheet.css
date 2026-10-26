@@ -1181,8 +1181,41 @@ td label{
     color: rgba(255, 255, 255, 0.801);
 }
 
+.box001{
+    width: 310px;
+    height: 30px;
+    background-color: cadetblue;
+    position: relative;
+    overflow: hidden;
+}
+
 .box09{
     width: 310px;
-    height: 60px;
+    height: 59px;
     background-color: burlywood;
+}
+
+
+.box001 a{
+    letter-spacing: 0;
+    text-transform: none;
+    color: rgba(240, 248, 255, 0.705);
+    font-size: 13px;
+}
+
+.box001 a::after{
+    content: "";
+    width: 310px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: -310px;
+}
+
+.box001 span{
+    color: rgb(141, 141, 141);
+    bottom: -23px;
+    position: absolute;
+    font-size: 12px;
 }
