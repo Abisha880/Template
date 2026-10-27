@@ -63,6 +63,7 @@
     position: absolute;
 }
 
+
 .banner{
     width: 1585px;
     height: 953px;
@@ -101,7 +102,6 @@
 
 .menu{
     width: 1585px;
-    height: 650px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -110,8 +110,9 @@
 .box1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 150px;
+    gap: 40px 0;
 }
 
 
@@ -126,9 +127,6 @@
     transition: 0.3s;
 }
 
-.m{
-    margin-bottom: 40px;
-}
 
 .menuin i{
     color: rgb(63, 61, 61);
@@ -266,13 +264,13 @@
     background-image: url(images/demo-menu-header-scaled-1.avif);
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -1;
+    background-position: center;
 }
 
 .shootcover{
     width: 792px;
     height: 397px;
-    background-color: rgba(0, 0, 0, 0.280);
+    background-color: rgba(0, 0, 0, 0.380);
 }
 
 .shoot2{
@@ -281,7 +279,7 @@
     background-color: black;
     position: absolute;
     right: 0;
-    top: 2693px;
+    top: 2633px;
     padding: 90px 85px;
     color: white;
 }
@@ -1104,13 +1102,13 @@ td label{
 .footer{
     width: 100%;
     height: 500px;
-    background-color: aquamarine;
+    background-color: #222222;
     display: flex;
     align-items: center;
 }
 
 .box06{
-    background-color: #1E63B8;
+    background-color: #222222;
     display: flex;
     justify-content: center ;
 }
@@ -1118,7 +1116,7 @@ td label{
 .box07{
     width: 330px;
     height: 350px;
-    background-color: blueviolet;
+    background-color: #222222;
     padding: 10px;
 }
 
@@ -1150,7 +1148,7 @@ td label{
 .box08{
     width: 310px;
     height: 45px;
-    background-color: brown;
+    background-color: #222222;
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgba(240, 248, 255, 0.199);
@@ -1158,9 +1156,6 @@ td label{
     overflow: hidden;
 }
 
-.q{
-    border-bottom: 0;
-}
 
 .box08::after{
     content: "";
@@ -1183,16 +1178,21 @@ td label{
 
 .box001{
     width: 310px;
-    height: 30px;
-    background-color: cadetblue;
+    height: 29px;
+    background-color: #222222;
     position: relative;
     overflow: hidden;
 }
 
 .box09{
     width: 310px;
-    height: 59px;
-    background-color: burlywood;
+    height: 58px;
+    background-color: #222222;
+    border-bottom: 1px solid rgba(240, 248, 255, 0.199);
+}
+
+.q{
+    border-bottom: 0;
 }
 
 
@@ -1201,21 +1201,50 @@ td label{
     text-transform: none;
     color: rgba(240, 248, 255, 0.705);
     font-size: 13px;
+    transition: 0.3s;
 }
 
 .box001 a::after{
     content: "";
     width: 310px;
     height: 1px;
-    background-color: black;
+    background-color: rgba(240, 248, 255, 0.199);
     position: absolute;
     bottom: 0;
     left: -310px;
+    transition: 0.3s
 }
 
-.box001 span{
-    color: rgb(141, 141, 141);
-    bottom: -23px;
-    position: absolute;
+.box001:hover a{
+    color: white;
+}
+
+.box001:hover a::after{
+    left: 0;
+}
+
+.box09 span{
+    color: rgba(255, 255, 255, 0.61);
     font-size: 12px;
+}
+
+.box002{
+    width: 310px;
+    height: 58px;
+    background-color: #222222;
+}
+
+.box003{
+    width: 30px;
+    height: 30px;
+    background-color: #222222;
+    margin-right: 5px;
+}
+
+.box002 span{
+    font-size: 14px;
+}
+
+.box002 a, i{
+    color: rgba(240, 248, 255, 0.705);
 }
